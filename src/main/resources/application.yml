@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: mcp-client-example
+  ai:
+    openai:
+      api-key: ${OPEN_AI_API_KEY}
+      base-url: ${OPEN_AI_BASE_URL:https://api.openai.com}
+    mcp:
+      client:
+        sse:
+          connections:
+            mcp-server-example:
+              url: http://localhost:8081
+
+logging:
+  level:
+    org.springframework.ai.chat.client.advisor: DEBUG
