@@ -18,8 +18,8 @@ class AiService(
             .build()
 
         val chatOptions = OpenAiChatOptions.builder() // или другая реализация ToolCallingChatOptions
-            .model(OpenAiApi.ChatModel.GPT_4_1_MINI)
-            .temperature(0.0)
+            .model(OpenAiApi.ChatModel.GPT_5_MINI)
+            .temperature(1.0) // для GPT 5 температура всегда 1
             .responseFormat(responseFormat)
             .build()
 
