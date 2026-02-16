@@ -1,6 +1,6 @@
 # mcp-client-example
 
-Пример MCP (**model context protocol**) клиента на **Spring AI**. Требует наличия [MCP-сервера](https://github.com/devmarkru/mcp-server-example), запущенного на `localhost:8081`, но это можно переопределить в `application.yml`.
+Пример MCP (**model context protocol**) клиента на **Spring AI** с транспортом **Streamable HTTP**. Требует наличия [MCP-сервера](https://github.com/devmarkru/mcp-server-example), запущенного на `localhost:8081` (сервер должен работать в протоколе `STREAMABLE`), но это можно переопределить в `application.yml`.
 
 ## Переменные окружения
 

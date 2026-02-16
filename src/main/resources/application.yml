@@ -7,7 +7,7 @@ spring:
       base-url: ${OPEN_AI_BASE_URL:https://api.openai.com}
     mcp:
       client:
-        sse:
+        streamable-http:
           connections:
             mcp-server-example:
               url: http://localhost:8081
